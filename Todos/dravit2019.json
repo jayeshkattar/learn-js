@@ -1,0 +1,6 @@
+[
+    {"Day": "Monday", "Task1":"BigData", "Task2": "ML",  "Task3": "Deep Learning" },
+    {"Day": "Tuesday", "Task1":"Python", "Task2": "Django",  "Task3": "REST" },
+    {"Day": "Wednesday", "Task1":"ANN", "Task2": "CNN",  "Task3": "RNN" },
+    {"Day": "Thursday", "Task1":"Natural Language", "Task2": "GraphQL",  "Task3": "DynamoDB" }
+]

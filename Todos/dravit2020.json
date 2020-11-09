@@ -1,0 +1,6 @@
+[
+    {"Day": "Monday", "Task1":"ReactJS", "Task2": "ReactNative",  "Task3": "NodeJS" },
+    {"Day": "Tuesday", "Task1":"Async JS", "Task2": "Express",  "Task3": "Flesbox" },
+    {"Day": "Wednesday", "Task1":"MaterialUI", "Task2": "Bootstrap",  "Task3": "Docker" },
+    {"Day": "Thursday", "Task1":"AWS", "Task2": "React Bootstrap",  "Task3": "MongoDB" }
+]
