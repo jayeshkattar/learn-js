@@ -1,3 +1,4 @@
+#Javascript
 JS is synchronous single threaded application.  
 
 1. Execution Context
@@ -6,4 +7,13 @@ JS is synchronous single threaded application.
 
     Global EC & Local EC
 
-2. Call Stack
+2. Call Stack - EC Stack
+3. Hoisting
+4. window & this = this is always a window object in where ever you access 'this' remains to window object.
+5. undefined & not defined
+6. Scope & Lexical environment -(lexical means in-hierarcy or in-sequence)
+   **Scope** means where you can access specific variable or function in your code.
+   **Lexical environment** is the local memory along with lexical environment of parent.
+   The way of finding variable if not in local, then look for parent and if not in parent and aging look in grand parent so this looking of variable for child to parent is **scope chain**.
+7. let and const declarations are hoisted in the temporal dead-zone for the time being.
+   var is alway hoisted. 
