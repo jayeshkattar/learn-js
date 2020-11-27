@@ -21,3 +21,5 @@ JS is synchronous single threaded application.
    var a = 100;
    variables with same name cannot be initialize in same scope using let or const however var can.
 8. block, scope, shadowing, illegal shawdowing, Arrow function scope - lexical scope works inside the block
+
+9. this - the value of this anytime is not where it is but infact how it is called.  
