@@ -1,5 +1,4 @@
-function test(){
-	
+function test(){	
 var list = [0,1,2,3,4]
 for(i=0;i<list.length;i++){
 		list[i] = function(){return i;}
@@ -8,7 +7,6 @@ return list;
 }
 
 var temp = test()
-
 console.log(temp[0]())
 console.log(temp[1]())
 console.log(temp[2]())
@@ -24,23 +22,6 @@ Curry function
   render () {
     return <p>{this.state.a}</p>
 }
-
-ar list = [0,1,2,3,4]
-for(i=0;i<list.length;i++){
-		list[i] = function(){return i;}
-	}
-return list;
-}
-
-var temp = test()
-
-console.log(temp[0]())
-console.log(temp[1]())
-console.log(temp[2]())
-console.log(temp[3]())
-console.log(temp[4]())
-
-let const var?
 
 function x() {
 if(true) {
