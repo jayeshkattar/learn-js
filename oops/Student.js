@@ -1,12 +1,13 @@
+//Constructor function
 function Student(name, grade) {
   this.name = name;
   this.grade = grade;
 }
 
-Student.prototype.login = () => {
+Student.prototype.login = function() {
   console.log(this.name, "logged in");
 };
-Student.prototype.logout = () => {
+Student.prototype.logout = function() {
   console.log(this.name, "logged out");
 };
 
