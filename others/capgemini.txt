@@ -1,0 +1,123 @@
+var b = 1;
+function outer(){
+	var b = 2
+	function inner(){
+		b= b++;
+		console.log(b)
+		var b = 3;
+		
+	}
+inner();
+}
+outer();
+====================
+var hero = {
+_name: 'John Doe',
+getSecretIdentity: function (){
+return this._name;
+}
+};
+
+var stoleSecretIdentity = hero.getSecretIdentity;
+
+console.log(stoleSecretIdentity());
+console.log(hero.getSecretIdentity());
+==============================================
+enumerable .. how to make below fn enumerable
+var person = {
+	name: 'ma',
+	
+}
+==========================================
+function job(state) {
+return new Promise(function(resolve, reject) {
+if (state) {
+resolve('success');
+} else {
+reject('error');
+}
+});
+}
+
+let promise = job(true);
+
+promise
+
+.then(function(data) {
+console.log(data);
+
+ return job(true);
+})
+
+.then(function(data) {
+if (data !== 'victory') {
+throw 'Defeat';
+}
+
+ return job(true);
+})
+
+.then(function(data) {
+console.log(data);
+})
+
+.catch(function(error) {
+console.log(error);
+
+ return job(false);
+})
+
+.then(function(data) {
+console.log(data);
+
+ return job(true);
+})
+
+.catch(function(error) {
+console.log(error);
+
+ return 'Error caught';
+})
+
+.then(function(data) {
+console.log(data);
+
+ return new Error('test');
+})
+
+.then(function(data) {
+console.log('Success:', data.message);
+})
+
+.catch(function(data) {
+console.log('Error:', data.message);
+});
+==========================================
+types of queue in event loop
+=======================================
+string aabbbcccccddccc
+a2b3c5d2c3
+
+function shortenString(str) {
+var s = new set(str);  [a, b, c, d]
+for(i = 0; i< s.length; i++) {
+	for(j; str)
+}
+}
+=============================================
+var a={},
+    b={key:'b'},
+    c={key:'c'};
+
+a[b]=123;
+a[c]=456;
+
+console.log(a[b]);
+
+function myFun(){
+  for (var i = 0; i < 50; i++){
+  	executeAjaxCallAsync();
+  }
+}
+
+mySum(2)(3)(4)(5)
