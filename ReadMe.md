@@ -51,3 +51,4 @@ myfunction();// this sets to window
 
 13. call apply and bind
 14. polyfill for bind
+15. generators doesnot run to completion however async await bcoz its normal fn. generators we can decide flow of transaction
